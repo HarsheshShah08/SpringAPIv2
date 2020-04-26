@@ -47,7 +47,7 @@ class PublicRestApiControllerTests {
 	final void test() throws Exception {
 		
 		
-		//test content
+		//test content and the status HTTP OK
 		this.mockMvc.perform(get("/api/public/test1")).andExpect(status().isOk()).andExpect(content().string("API Test 1"));
 
 		
