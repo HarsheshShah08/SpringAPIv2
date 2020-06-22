@@ -964,3 +964,221 @@ Caused by: org.apache.kafka.common.config.ConfigException: No resolvable bootstr
 2020-24-22 14:24:03.509 [http-nio-8080-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1592832243505
 2020-24-22 14:24:03.526 [kafka-producer-network-thread | producer-3] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-3] Cluster ID: LIaJHmLeQPu9xC8jZfXh6A
 2020-25-22 14:25:30.892 [RMI TCP Connection(3)-127.0.0.1] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-3] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2020-26-22 14:26:00.828 [main] INFO  com.example.demo.SpringApIsv2Application - Start the Spring Boot Application - Harshesh
+2020-26-22 14:26:00.999 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - Start the Spring Boot Application - Harshesh
+2020-26-22 14:26:01.323 [restartedMain] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 0
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2020-26-22 14:26:01.351 [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.3.1
+2020-26-22 14:26:01.362 [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-26-22 14:26:01.370 [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1592832361351
+2020-26-22 14:26:01.455 [kafka-producer-network-thread | producer-2] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-2] Cluster ID: LIaJHmLeQPu9xC8jZfXh6A
+2020-26-22 14:26:01.495 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - Starting SpringApIsv2Application on DESKTOP-06092015 with PID 5992 (C:\Users\Harshesh\Documents\STS_Workspace_4\SpringAPIsv2\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\SpringAPIsv2)
+2020-26-22 14:26:01.498 [restartedMain] DEBUG com.example.demo.SpringApIsv2Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-26-22 14:26:01.499 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - No active profile set, falling back to default profiles: default
+2020-26-22 14:26:03.458 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - Started SpringApIsv2Application in 2.447 seconds (JVM running for 4.302)
+2020-26-22 14:26:07.432 [http-nio-8080-exec-1] INFO  com.example.demo.controller.PublicRestApiController - test1 - Harshesh
+2020-26-22 14:26:07.432 [http-nio-8080-exec-1] INFO  com.example.demo.service.KafkaProducer - #### -> Producing message -> API test1 - Harshesh
+2020-26-22 14:26:07.436 [http-nio-8080-exec-1] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-26-22 14:26:07.460 [http-nio-8080-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.3.1
+2020-26-22 14:26:07.468 [http-nio-8080-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-26-22 14:26:07.474 [http-nio-8080-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1592832367460
+2020-26-22 14:26:07.502 [kafka-producer-network-thread | producer-3] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-3] Cluster ID: LIaJHmLeQPu9xC8jZfXh6A
+2020-29-22 14:29:57.355 [Thread-5] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-3] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2020-29-22 14:29:57.828 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - Start the Spring Boot Application - Harshesh
+2020-29-22 14:29:57.875 [restartedMain] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 0
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2020-29-22 14:29:57.892 [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.3.1
+2020-29-22 14:29:57.899 [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-29-22 14:29:57.903 [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1592832597892
+2020-29-22 14:29:57.932 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - Starting SpringApIsv2Application on DESKTOP-06092015 with PID 5992 (C:\Users\Harshesh\Documents\STS_Workspace_4\SpringAPIsv2\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\SpringAPIsv2)
+2020-29-22 14:29:57.933 [restartedMain] DEBUG com.example.demo.SpringApIsv2Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-29-22 14:29:57.935 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - No active profile set, falling back to default profiles: default
+2020-29-22 14:29:57.995 [kafka-producer-network-thread | producer-4] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-4] Cluster ID: LIaJHmLeQPu9xC8jZfXh6A
+2020-29-22 14:29:58.471 [restartedMain] INFO  com.example.demo.SpringApIsv2Application - Started SpringApIsv2Application in 0.637 seconds (JVM running for 239.316)
